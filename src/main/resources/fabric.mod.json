@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "fluorite-data-generator",
+  "version": "1.0-SNAPSHOT",
+  "name": "Fluorite Data Generator",
+  "description": "",
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "dev.uten2c.fluoritedatagenerator.FluoriteDataGenerator"
+    ]
+  },
+  "mixins": [
+    "fluoritedatagenerator.mixins.json"
+  ]
+}

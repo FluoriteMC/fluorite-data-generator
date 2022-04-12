@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.uten2c.fluoritedatagenerator.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinEulaReader"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
