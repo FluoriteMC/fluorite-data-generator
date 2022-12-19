@@ -1,5 +1,5 @@
 plugins {
-    id("fabric-loom") version "0.11-SNAPSHOT"
+    id("fabric-loom") version "1.0-SNAPSHOT"
 }
 
 group = "dev.uten2c"
@@ -15,8 +15,8 @@ repositories {
 }
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.18.2")
-    mappings("net.fabricmc:yarn:1.18.2+build.2:v2")
-    modImplementation("net.fabricmc:fabric-loader:0.13.3")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.50.0+1.18.2")
+    minecraft("com.mojang:minecraft:1.19.2")
+    mappings("net.fabricmc:yarn:1.19.2+build.28:v2")
+    modImplementation("net.fabricmc:fabric-loader:0.14.11")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.69.0+1.19.2")
 }
